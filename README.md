@@ -1,1 +1,0 @@
-# Veeva-Integrated-Curriculum
