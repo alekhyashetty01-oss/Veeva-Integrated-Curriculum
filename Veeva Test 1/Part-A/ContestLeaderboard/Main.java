@@ -19,8 +19,7 @@ public class Main {
         List<Participant> participants = new ArrayList<>(n);
 
         for (int i = 0; i < n; i++) {
-            StringTokenizer st = new Strin
-            gTokenizer(br.readLine());
+            StringTokenizer st = new StringTokenizer(br.readLine());
             String username = st.nextToken();
             int problemsSolved = Integer.parseInt(st.nextToken());
             int penaltyTime = Integer.parseInt(st.nextToken());
