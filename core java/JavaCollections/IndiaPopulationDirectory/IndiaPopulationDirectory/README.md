@@ -26,9 +26,6 @@ Functional Requirements:
 Query 4 (Threshold Filtering): Retrieve a list of all cities across India whose population exceeds a user-defined threshold.
 Edge Case Handling: Gracefully handle queries for states or cities that do not exist in the collection by returning informative messages rather than throwing null pointer exceptions.
 
-
-
->>>>>>> f98feec4012c54facf8e17d6f0f2632bc02e8137
 Non-Functional Requirements:
 Lookup Efficiency: Retrieving a city's population when the state and city are known should execute in O(1) average time complexity.
 Data Integrity: Prevent duplicate state names and duplicate city names within the same state.
